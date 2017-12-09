@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:drawableLeft="@drawable/ic_menu_cc"
+        android:layout_width="0dip"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="id"
+        android:textColor="#bbff0000" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="name"
+        android:textColor="#bbffff00" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="phone"
+        android:textColor="#bb0000ff" />
+    
+    <ImageView 
+        android:id="@+id/iv_delete"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_menu_delete"
+        />
+
+</LinearLayout>
